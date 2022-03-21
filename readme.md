@@ -20,8 +20,6 @@ You can then install Pytest with:
 
 You can execute the application with: 
 
-`$ python3 activity/main.py`
-
-It will crash, this is part of the exercise.  You can also run the tests with 
+`$ python3 activity/main.py` 
 
 `$ pytest`
