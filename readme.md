@@ -22,4 +22,6 @@ You can execute the application with:
 
 `$ python3 activity/main.py` 
 
+You can run the tests with:
+
 `$ pytest`
