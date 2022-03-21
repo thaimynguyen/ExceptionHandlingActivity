@@ -14,13 +14,13 @@ Then activate the environment:
 
 You can then install the dependencies with:
 
-`$ pip3 install -r requirements.txt`
+`$ pip install -r requirements.txt`
 
 ## Running The Application
 
 You can execute the application with: 
 
-`$ python3 activity/main.py` 
+`$ python activity/main.py` 
 
 You can run the tests with:
 
