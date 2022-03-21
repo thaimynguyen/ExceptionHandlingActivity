@@ -12,9 +12,9 @@ Then activate the environment:
 
 `$ source venv/bin/activate`
 
-You can then install Pytest with:
+You can then install the dependencies with:
 
-`$ pip3 install pytest`
+`$ pip3 install -r requirements.txt`
 
 ## Running The Application
 
