@@ -26,4 +26,4 @@ def top_3_food_2(foodlist):
         try:
             print(foodlist[i])
         except IndexError:
-            raise Exception("Please enter at least 3 types of food.")
+            raise IndexError("Please enter at least 3 types of food.")

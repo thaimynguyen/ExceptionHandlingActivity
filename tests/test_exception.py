@@ -17,5 +17,5 @@ def test_top_3_food_2_raises_exception():
     foodlist = ["ramen", "kimchi"]
 
     # act & assert
-    with pytest.raises(Exception, match="Please enter at least 3 types of food."):
+    with pytest.raises(IndexError, match="Please enter at least 3 types of food."):
         top_3_food_2(foodlist)
