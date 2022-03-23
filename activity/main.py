@@ -1,16 +1,8 @@
-"""
-List
-# Ask for user input
-# Enter 3 favorite food
-# If user enters less than 3 food 
-    # raise IndexError
-    # print error message "Please input exactly 3 types of food" 
-# If user enters more than 3 food
-    # print error message "Please input exactly 3 types of food"
-"""
-
 
 def top_3_food(foodlist):
+    """
+    top_3_food function should throw IndexError if a list of length < 3 is passed into the function.
+    """
 
     print("Your top 3 favorite food is: ")
     for i in range(3):
